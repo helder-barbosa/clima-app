@@ -1,5 +1,7 @@
+let APIKey = process.env.API_KEY;
+
 let weather = {
-  APIkey: process.env.API_KEY,
+  APIkey: APIKey,
 
   fetchWeather: function (nameCity) {
     fetch(
